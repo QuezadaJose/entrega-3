@@ -22,20 +22,6 @@ API construida con **FastAPI** que integra tres módulos principales:
   - `title="API Economía y Ciencia de Datos"`
   - `description` con autores
   - `version="2.1.0"`
-- Monta carpeta estática:
-  - `/static` → `./static/` (GIFs, imágenes, etc.)
-- Configura templates Jinja2:
-  - Carpeta `./templates/`
-- Define el **endpoint raíz**:
-
-### `GET /`
-
-- **Tipo:** `HTMLResponse`
-- **Qué hace:** Renderiza `index.html` usando Jinja2, mostrando:
-  - un GIF desde `/static`
-  - un enlace a la documentación interactiva (`/docs`)
-- **Uso típico:** abrir la app en el navegador:
-  - http://127.0.0.1:8000/
 
 También incluye los routers:
 
